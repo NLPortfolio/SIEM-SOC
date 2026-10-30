@@ -21,6 +21,7 @@ Let's create an inbound rule to allow anyone to connect to our machine
 ![hello](images/welcome.png)
 
 6) Now we go on our VM and we disable the internal firewall. To do that we will need a remote access to our NVM. We use just enter the IP adress and the logs in the windows remote desktop tool.
+
 ![hello](images/firewall.png.png)
 
 A quick ping to make sure that our honey pot is visible on the Internet
