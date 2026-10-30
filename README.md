@@ -34,3 +34,11 @@ A quick ping to make sure that our honey pot is visible on the Internet
 To connect our Log Analytic Workspace to our VM we need to install Windows Security Events extension which allow us to see the SecurityEvents logs from our VM
 
 ![hello](images/login.png)
+
+
+Now we can look for failed attempts to log on our VM. with this querry : 
+
+SecurityEvent
+| where EventID == 4625
+| project TimeGenerated, Account, Activity, Computer, IpAddress
+
