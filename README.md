@@ -27,8 +27,8 @@ A quick ping to make sure that our honey pot is visible on the Internet
 
 ![hello](images/ping.png)
 
-Create a log analytics Workspace.
-Create our Sentinel Instance SIEM
+7) Create a log analytics Workspace.
+8) Create our Sentinel Instance SIEM
 
 To connect our Log Analytic Workspace to our VM we need to install Windows Security Events extension which allow us to see the SecurityEvents logs from our VM
 
