@@ -30,5 +30,5 @@ Create a log analytics Workspace.
 Create our Sentinel Instance SIEM
 
 Connect our Log Analytic Workspace to our VM 
-Install Windows Security Events
+Install Windows Security Events extension which allow us to see the SecurityEvents logs from our VM
 
