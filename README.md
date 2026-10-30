@@ -1,4 +1,3 @@
-Tools for the LAB :
+Project Overview : 
 
-- Software oracle virtualbox which is what we're going to use to run our virtual machines
-- A windows 10 iso image
+![hello](images/socoverview.png)
