@@ -42,3 +42,6 @@ SecurityEvent
 | where EventID == 4625
 | project TimeGenerated, Account, Activity, Computer, IpAddress
 
+I Failed to set up my honeypot the first time. I had no logs and i wanted to give up BUT in order to set up an SOC AI agent i needed an Azure LAB and this time it worked. (I made an error during the network configuration)
+
+![hello](images/trying.png)
